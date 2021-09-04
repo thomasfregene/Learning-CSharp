@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UserFavouriteModelStoreContainer" CdmEntityContainer="UserFavouriteModelContainer">
+    <EntitySetMapping Name="UserFavourites1">
+      <EntityTypeMapping TypeName="IsTypeOf(UserFavouriteModel.UserFavourites)">
+        <MappingFragment StoreEntitySet="UserFavourites1">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FavoriteNumber" ColumnName="FavoriteNumber" />
+          <ScalarProperty Name="FavoriteColor" ColumnName="FavoriteColor" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

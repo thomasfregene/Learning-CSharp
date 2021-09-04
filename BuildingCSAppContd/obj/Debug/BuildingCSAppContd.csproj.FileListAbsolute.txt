@@ -1,0 +1,7 @@
+C:\Projects\AdvanceCSharp\BuildingCSAppContd\obj\Debug\BuildingCSAppContd.csproj.AssemblyReference.cache
+C:\Projects\AdvanceCSharp\BuildingCSAppContd\obj\Debug\BuildingCSAppContd.csproj.CoreCompileInputs.cache
+C:\Projects\AdvanceCSharp\BuildingCSAppContd\bin\Debug\BuildingCSAppContd.exe.config
+C:\Projects\AdvanceCSharp\BuildingCSAppContd\bin\Debug\BuildingCSAppContd.exe
+C:\Projects\AdvanceCSharp\BuildingCSAppContd\bin\Debug\BuildingCSAppContd.pdb
+C:\Projects\AdvanceCSharp\BuildingCSAppContd\obj\Debug\BuildingCSAppContd.exe
+C:\Projects\AdvanceCSharp\BuildingCSAppContd\obj\Debug\BuildingCSAppContd.pdb

@@ -1,0 +1,14 @@
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\bin\Debug\ADO_NETEntityFramework.exe.config
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\bin\Debug\ADO_NETEntityFramework.exe
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\bin\Debug\ADO_NETEntityFramework.pdb
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\bin\Debug\EntityFramework.dll
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\bin\Debug\EntityFramework.xml
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\obj\Debug\ADO_NETEntityFramework.csproj.AssemblyReference.cache
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\obj\Debug\ADO_NETEntityFramework.Properties.Resources.resources
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\obj\Debug\ADO_NETEntityFramework.csproj.GenerateResource.cache
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\obj\Debug\ADO_NETEntityFramework.csproj.CoreCompileInputs.cache
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\obj\Debug\ADO_NETEntityFramework.csproj.CopyComplete
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\obj\Debug\ADO_NETEntityFramework.exe
+C:\Projects\AdvanceCSharp\ADO_NETEntityFramework\obj\Debug\ADO_NETEntityFramework.pdb
