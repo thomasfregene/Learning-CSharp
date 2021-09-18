@@ -1,6 +1,11 @@
 ﻿using BuildingCSAppContd.Chapter2;
 using BuildingCSAppContd.Chapter4;
 using BuildingCSAppContd.Chapter4.FunWithStrucures;
+using BuildingCSAppContd.Chapter4.NullableTypes;
+using BuildingCSAppContd.Chapter4.RefTypeValueTypeParams;
+using BuildingCSAppContd.Chapter4.ValueAndReferenceType;
+using BuildingCSAppContd.Chapter4.ValueTypeContainingRefType;
+using BuildingCSAppContd.Chapter5.UnderstandingEncapsulation.CSharpClassType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -83,15 +88,29 @@ namespace BuildingCSAppContd
              Bonus.EvaluateEnum(EmpType3.Contractor);
              Bonus.EvaluateEnum(day);
              Bonus.EvaluateEnum(cc);*/
-            Point p1 = new Point(340, 60);
+
+            /*Point p1 = new Point(340, 60);
             p1.Decrement();
-            p1.Display();
+            p1.Display();*/
             //Point.UseOfStruct();
             //ClassPoint.Result();
+            //Point1.ValueTypeAssignment();
+            //PointRef.ReferenceTypeAssignment();
+            //Rectangle.ValueTypeContainingRefType();
+            //Person.PassingRefTypeByValue();
+            //Person.PassingRefTypesByRef();
+
+            //DatabaseReader.ReadData();
+            //DatabaseReader.NullCoalescingOperator();
+            //DatabaseReader.TraditionalIfElse();
+            //DatabaseReader.TesterMethod();
 
             //MakeCars.GetCars();
 
-
+            //CarObj.CurrentState();
+            //CarObj.UsingConstructorOverLoad();
+            //Motorcycle.DefaultConstructorInAction();
+            Motorcycle.CustomConstructorInAction();
 
         }
 

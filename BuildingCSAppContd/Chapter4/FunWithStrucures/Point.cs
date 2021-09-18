@@ -12,6 +12,7 @@ namespace BuildingCSAppContd.Chapter4.FunWithStrucures
         public int X;
         public int Y;
 
+        //A custom constructor
         public Point(int XPos, int YPos)
         {
             X = XPos;

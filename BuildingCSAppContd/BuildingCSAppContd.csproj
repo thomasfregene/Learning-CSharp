@@ -84,6 +84,15 @@
     <Compile Include="Chapter4\FunWithStrucures\Point.cs" />
     <Compile Include="Chapter4\MethodOverload.cs" />
     <Compile Include="Chapter4\MethodsAndParameterModifiers.cs" />
+    <Compile Include="Chapter4\NullableTypes\CSharpNullaleType.cs" />
+    <Compile Include="Chapter4\NullableTypes\DatabaseReader.cs" />
+    <Compile Include="Chapter4\RefTypeValueTypeParams\Person.cs" />
+    <Compile Include="Chapter4\ValueAndReferenceType\Point1.cs" />
+    <Compile Include="Chapter4\ValueAndReferenceType\PointRef.cs" />
+    <Compile Include="Chapter4\ValueTypeContainingRefType\Rectangle.cs" />
+    <Compile Include="Chapter4\ValueTypeContainingRefType\ShapeInfo.cs" />
+    <Compile Include="Chapter5\UnderstandingEncapsulation\CSharpClassType\CarObj.cs" />
+    <Compile Include="Chapter5\UnderstandingEncapsulation\CSharpClassType\Motorcycle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -102,5 +111,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
