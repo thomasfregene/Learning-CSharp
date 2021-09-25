@@ -43,14 +43,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter2\BasicDataType.cs" />
+    <Compile Include="Chapter2\BigIntegerClass.cs" />
+    <Compile Include="Chapter2\FormatingNumericalData.cs" />
+    <Compile Include="Chapter2\ImplicitlyTypedVariables.cs" />
+    <Compile Include="Chapter2\IterationConstructs.cs" />
+    <Compile Include="Chapter2\MembersOfNumericDataType.cs" />
+    <Compile Include="Chapter2\NarrowingAndWideningDataType.cs" />
+    <Compile Include="Chapter2\ParsingValue.cs" />
+    <Compile Include="Chapter2\ProccessingCmdLineArg.cs" />
+    <Compile Include="Chapter2\StringClass.cs" />
+    <Compile Include="Chapter2\SystemBoolean.cs" />
+    <Compile Include="Chapter2\SystemChar.cs" />
+    <Compile Include="Chapter2\SystemConsoleClass.cs" />
+    <Compile Include="Chapter2\SystemDateTime.cs" />
+    <Compile Include="Chapter2\SystemEnvironmentClass.cs" />
+    <Compile Include="Chapter2\SystemString.cs" />
+    <Compile Include="Chapter2\SystemText_StringBuilder.cs" />
+    <Compile Include="Chapter4\ArraysInCSharp.cs" />
+    <Compile Include="Chapter4\EmpType.cs" />
+    <Compile Include="Chapter4\FunWithStrucures\ClassPoint.cs" />
+    <Compile Include="Chapter4\FunWithStrucures\Point.cs" />
+    <Compile Include="Chapter4\MethodOverload.cs" />
+    <Compile Include="Chapter4\MethodsAndParameterModifiers.cs" />
+    <Compile Include="Chapter4\NullableTypes\CSharpNullaleType.cs" />
+    <Compile Include="Chapter4\NullableTypes\DatabaseReader.cs" />
+    <Compile Include="Chapter4\RefTypeValueTypeParams\Person.cs" />
+    <Compile Include="Chapter4\ValueAndReferenceType\Point1.cs" />
+    <Compile Include="Chapter4\ValueAndReferenceType\PointRef.cs" />
+    <Compile Include="Chapter4\ValueTypeContainingRefType\Rectangle.cs" />
+    <Compile Include="Chapter4\ValueTypeContainingRefType\ShapeInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnderstandingEncapsulation\CSharpClassType\CarObj.cs" />
-    <Compile Include="UnderstandingEncapsulation\CSharpClassType\Motorcycle.cs" />
-    <Compile Include="UnderstandingEncapsulation\StaticDataAndMemebers\SavingsAccount.cs" />
+    <Compile Include="Chapter5\UnderstandingEncapsulation\CSharpClassType\CarObj.cs" />
+    <Compile Include="Chapter5\UnderstandingEncapsulation\CSharpClassType\Motorcycle.cs" />
+    <Compile Include="Chapter5\UnderstandingEncapsulation\StaticDataAndMemebers\SavingsAccount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
