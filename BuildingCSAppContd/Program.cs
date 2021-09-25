@@ -110,7 +110,10 @@ namespace BuildingCSAppContd
             //CarObj.CurrentState();
             //CarObj.UsingConstructorOverLoad();
             //Motorcycle.DefaultConstructorInAction();
-            Motorcycle.CustomConstructorInAction();
+            //Motorcycle.CustomConstructorInAction();
+            //Motorcycle.ChainingConstructors();
+            //Motorcycle.CtorFlow();
+            Motorcycle.MakeSomeBikes();
 
         }
 

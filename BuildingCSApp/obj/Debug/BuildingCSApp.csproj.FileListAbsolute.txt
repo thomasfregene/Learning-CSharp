@@ -1,7 +1,0 @@
-C:\Projects\AdvanceCSharp\BuildingCSApp\bin\Debug\BuildingCSApp.exe.config
-C:\Projects\AdvanceCSharp\BuildingCSApp\bin\Debug\BuildingCSApp.exe
-C:\Projects\AdvanceCSharp\BuildingCSApp\bin\Debug\BuildingCSApp.pdb
-C:\Projects\AdvanceCSharp\BuildingCSApp\obj\Debug\BuildingCSApp.csproj.AssemblyReference.cache
-C:\Projects\AdvanceCSharp\BuildingCSApp\obj\Debug\BuildingCSApp.csproj.CoreCompileInputs.cache
-C:\Projects\AdvanceCSharp\BuildingCSApp\obj\Debug\BuildingCSApp.exe
-C:\Projects\AdvanceCSharp\BuildingCSApp\obj\Debug\BuildingCSApp.pdb
