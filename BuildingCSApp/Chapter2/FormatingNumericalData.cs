@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter2
+namespace BuildingCSApp.Chapter2
 {
     public static class FormatingNumericalData
     {
@@ -29,7 +29,7 @@ namespace BuildingCSAppContd.Chapter2
         {
             string message = string.Format("100000 in hex is {0:x}", 100000);
 
-            System.Windows.MessageBox.Show(message);
+            //System.Windows.MessageBox.Show(message);
         }
     }
 }

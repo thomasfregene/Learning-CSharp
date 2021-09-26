@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter5.UnderstandingEncapsulation.CSharpClassType
+namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.CSharpClassType
 {
     public class CarObj
     {

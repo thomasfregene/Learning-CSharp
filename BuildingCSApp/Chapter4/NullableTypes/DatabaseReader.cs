@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter4.NullableTypes
+namespace BuildingCSApp.Chapter4.NullableTypes
 {
     public class DatabaseReader
     {

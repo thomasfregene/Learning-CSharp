@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers
+namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers
 {
     public class SavingsAccount
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter4
+namespace BuildingCSApp.Chapter4
 {
     /// <summary>
     /// The EmpType enumeration defines four named constants, corresponding to

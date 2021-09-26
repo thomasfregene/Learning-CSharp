@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers
+namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers
 {
     public class SavingsAccount
     {
@@ -23,11 +23,11 @@ namespace BuildingCSAppContd.Chapter5.UnderstandingEncapsulation.StaticDataAndMe
         {
             Console.WriteLine("***** Fun With Static Data *****\n");
             SavingsAccount s1 = new SavingsAccount(50);
-            Console.WriteLine("s1: {0}\n", s1);
+            Console.WriteLine("s1: {0}\n", s1.CurrAccount);
             SavingsAccount s2 = new SavingsAccount(100);
-            Console.WriteLine("s2: {0}\n", s2);
+            Console.WriteLine("s2: {0}\n", s2.CurrAccount);
             SavingsAccount s3 = new SavingsAccount(10000.75);
-            Console.WriteLine("s3: {0}", s3);
+            Console.WriteLine("s3: {0}", s3.CurrAccount);
 
             Console.ReadLine();
         }

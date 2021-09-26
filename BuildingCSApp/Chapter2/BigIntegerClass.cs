@@ -5,7 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter2
+namespace BuildingCSApp.Chapter2
 {
     public static class BigIntegerClass
     {

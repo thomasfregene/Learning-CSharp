@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter4.ValueTypeContainingRefType
+namespace BuildingCSApp.Chapter4.ValueTypeContainingRefType
 {
     public struct Rectangle
     {

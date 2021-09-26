@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter2
+namespace BuildingCSApp.Chapter2
 {
     /// <summary>
     /// implicit and explicit data conversion

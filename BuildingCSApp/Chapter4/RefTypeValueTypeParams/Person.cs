@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuildingCSAppContd.Chapter4.RefTypeValueTypeParams
+namespace BuildingCSApp.Chapter4.RefTypeValueTypeParams
 {
     public class Person
     {
