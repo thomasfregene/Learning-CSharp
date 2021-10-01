@@ -15,8 +15,10 @@ namespace BuildingCSApp
             //Console.WriteLine();
             ////Console.ReadLine();
             //return -1;
-            SavingsAccount.AccountBal();
+            //SavingsAccount.AccountBal();
 
+            //SavingsAccount.AccountBal2();
+            SavingsAccount.AcoountBal3();
         }
     }
 }
