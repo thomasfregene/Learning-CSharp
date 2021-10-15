@@ -74,6 +74,10 @@
     <Compile Include="Chapter4\ValueAndReferenceType\PointRef.cs" />
     <Compile Include="Chapter4\ValueTypeContainingRefType\Rectangle.cs" />
     <Compile Include="Chapter4\ValueTypeContainingRefType\ShapeInfo.cs" />
+    <Compile Include="Chapter5\Inheritance\Has_ARelationship\Car.cs" />
+    <Compile Include="Chapter5\Inheritance\Has_ARelationship\Radio.cs" />
+    <Compile Include="Chapter5\UnderstandingEncapsulation\EmployeeApp\Employee.cs" />
+    <Compile Include="Chapter5\UnderstandingEncapsulation\StaticDataAndMemebers\SimpleUtilityClass\TimeUtilClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter5\UnderstandingEncapsulation\CSharpClassType\CarObj.cs" />

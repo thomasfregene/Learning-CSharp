@@ -1,4 +1,7 @@
-﻿using BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers;
+﻿using BuildingCSApp.Chapter5.Inheritance.Has_ARelationship;
+using BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp;
+using BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers;
+using BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers.SimpleUtilityClass;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +21,12 @@ namespace BuildingCSApp
             //SavingsAccount.AccountBal();
 
             //SavingsAccount.AccountBal2();
-            SavingsAccount.AcoountBal3();
+            //SavingsAccount.AcoountBal3();
+            //TimeUtilClass.PrintDateAndTime();
+            //Car.CarRadio();
+
+            Employee.TestEmployeeApp();
+            
         }
     }
 }
