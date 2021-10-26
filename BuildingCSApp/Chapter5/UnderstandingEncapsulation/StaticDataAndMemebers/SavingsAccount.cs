@@ -11,7 +11,15 @@ namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemeber
         //instance-level data
         public double CurrBalance;
         //a static point of data
-        public static double CurrInterestRate;// = 0.04;
+        // public static double CurrInterestRate;// = 0.04;
+
+        //interest rate using static property
+        private static double CurrInterestRate = 0.04;
+        public static double InterestRate
+        {
+            get { return CurrInterestRate; }
+            set { CurrInterestRate = value; }
+        }
 
         // Notice that our constructor is setting
         // the static currInterestRate value.
@@ -82,7 +90,8 @@ namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemeber
             //make an account
             SavingsAccount s1 = new SavingsAccount(50);
             //print the current interest rate
-            Console.WriteLine("Interest Rate is: {0}", SavingsAccount.GetInterestRate());
+            //Console.WriteLine("Interest Rate is: {0}", SavingsAccount.GetInterestRate());
+            Console.WriteLine("Interest Rate is: {0}", SavingsAccount.InterestRate);
             //Try to change the interest rate via the property
             SavingsAccount.SetInterestRate(0.08);
             //make a second account

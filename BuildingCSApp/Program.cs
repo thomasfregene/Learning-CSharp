@@ -1,5 +1,8 @@
-﻿using BuildingCSApp.Chapter5.Inheritance.Has_ARelationship;
+﻿using BuildingCSApp.Chapter4.FunWithStrucures;
+using BuildingCSApp.Chapter5.Inheritance.Has_ARelationship;
+using BuildingCSApp.Chapter5.UnderstandingEncapsulation.CSharpClassType;
 using BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp;
+using BuildingCSApp.Chapter5.UnderstandingEncapsulation.ObjectInitializer;
 using BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers;
 using BuildingCSApp.Chapter5.UnderstandingEncapsulation.StaticDataAndMemebers.SimpleUtilityClass;
 using System;
@@ -25,8 +28,14 @@ namespace BuildingCSApp
             //TimeUtilClass.PrintDateAndTime();
             //Car.CarRadio();
 
-            Employee.TestEmployeeApp();
-            
+            //Employee.TestEmployeeApp();
+            //Employee.TestEmployeeAppWithPpty();
+            //Employee.IncreamentAgeOnBirthday();
+            //CarObj.UsingAutomaticProp();
+            //Garage.DefaultValue();
+            //PointObj.ObjInitializerSyntax();
+            Rectangle.ObjInitRect();
+
         }
     }
 }

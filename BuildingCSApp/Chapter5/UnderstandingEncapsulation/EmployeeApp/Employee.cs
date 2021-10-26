@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp
 {
-    public class Employee
+    partial class Employee
     {
-        //field data
-        private string EmpName;
-        private int EmpId;
-        private float CurrPay;
-
-        //Encapsulation using traditional accessor and mutator
-        //Accesor(get method)
+       
         public string GetName()
         {
             return EmpName;
@@ -30,6 +24,15 @@ namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp
             EmpName = name;
         }
 
+        public int GetAge()
+        {
+            return EmpAge;
+        }
+        public void SetAge(int age)
+        {
+            Age = age;
+        }
+
         //encapsulation using .Net properties
        public string Name
         {
@@ -40,9 +43,9 @@ namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp
                     Console.WriteLine("Name length exceeds 15 character");
                 else
                     EmpName = value;
-
             }
         }
+
 
         public int Id
         {
@@ -56,16 +59,18 @@ namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp
             set { CurrPay = value; }
         }
 
-        //constructors
-        public Employee() { }
-
-        public Employee(string name, int id, float pay)
+        public int Age
         {
-            EmpName = name;
-            EmpId = id;
-            CurrPay = pay;
+            get { return EmpAge; }
+            set { EmpAge = value; }
         }
 
+        //read-only property
+        public string SocialSecurityNumber
+        {
+            get { return EmpSSN; }
+        }
+       
         //methods
         public void GiveBonus(float amount)
         {
@@ -82,13 +87,41 @@ namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp
         public static void TestEmployeeApp()
         {
             Console.WriteLine("***** Fun with encapsulation *****\n");
-            Employee emp = new Employee("Marvin", 456, 30000);
+            Employee emp = new Employee("Marvin", 30, 456, 30000, "");
             emp.GiveBonus(1000);
             emp.DisplayStats();
 
             //use the get/set method to interact with the object name
             emp.SetName("Marv");
             Console.WriteLine("Employee is named: {0}", emp.GetName());
+        }
+
+        public static void TestEmployeeAppWithPpty()
+        {
+            Console.WriteLine("***** Fun with encapsulation *****\n");
+            Employee emp = new Employee("Marvin", 30, 456, 30000, "");
+            emp.GiveBonus(1000);
+            emp.DisplayStats();
+            //Reset and then get the name property
+            emp.Name = "Marv";
+            Console.WriteLine("Employee is named: {0}", emp.Name);
+
+        }
+
+        public static void IncreamentAgeOnBirthday()
+        {
+            //With Traditional accessor and mutator methods
+            //age increament will be as follows
+            Employee joe = new Employee();
+            joe.SetAge(30);
+            joe.SetAge(joe.GetAge() + 1);
+            Console.WriteLine("Employee Age: {0}", joe.GetAge());
+
+            //with encapsulated property 
+            joe.Age = 40;
+            joe.Age++;
+            Console.WriteLine("Employee age: {0}", joe.Age);
+            Console.WriteLine();
         }
     }
 }
