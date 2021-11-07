@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BuildingCSApp.Chapter5.UnderstandingEncapsulation.EmployeeApp
 {
-    partial class Employee
+    public partial class Employee
     {
        
         public string GetName()
