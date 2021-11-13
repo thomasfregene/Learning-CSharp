@@ -14,6 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BuildingCSApp.Chapter6.Shapes;
+using BuildingCSApp.Chapter6;
 
 namespace BuildingCSApp
 {
@@ -61,8 +62,12 @@ namespace BuildingCSApp
             //Error! cannot create an instance of an abstract class
             //Employee_Ihr employee = new Employee_Ihr();
 
-            Hexagon.Hex();
-            Circle.Cir();
+            //Hexagon.Hex();
+            //Circle.Cir();
+            //Shape.Shape_Astract();
+            //ThreeDCircle.ThreeDCircle_Status();
+            //AsKeyword.UsingAsKeyword();
+            Employee_Ihr.TestPromotionMethod();
 
         }
     }

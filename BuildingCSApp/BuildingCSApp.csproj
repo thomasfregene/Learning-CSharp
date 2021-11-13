@@ -84,6 +84,7 @@
     <Compile Include="Chapter5\UnderstandingEncapsulation\ObjectInitializer\PointObj.cs" />
     <Compile Include="Chapter5\UnderstandingEncapsulation\ObjectInitializer\Rectangle.cs" />
     <Compile Include="Chapter5\UnderstandingEncapsulation\StaticDataAndMemebers\SimpleUtilityClass\TimeUtilClass.cs" />
+    <Compile Include="Chapter6\AsKeyword.cs" />
     <Compile Include="Chapter6\BasicInheritance\Car_Ihr.cs" />
     <Compile Include="Chapter6\BasicInheritance\MiniVan.cs" />
     <Compile Include="Chapter6\Employees\BenefitPackage.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Chapter6\Shapes\Circle.cs" />
     <Compile Include="Chapter6\Shapes\Hexagon.cs" />
     <Compile Include="Chapter6\Shapes\Shape.cs" />
+    <Compile Include="Chapter6\Shapes\ThreeDCircle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter5\UnderstandingEncapsulation\CSharpClassType\CarObj.cs" />

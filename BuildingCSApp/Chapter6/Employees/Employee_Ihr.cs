@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace BuildingCSApp.Chapter6.Employees
 {
     //public abstract partial class Employee_Ihr
-    public  partial class Employee_Ihr
+    public partial class Employee_Ihr
     {
-       
+
         public string GetName()
         {
             return EmpName;
@@ -35,7 +35,7 @@ namespace BuildingCSApp.Chapter6.Employees
         }
 
         //encapsulation using .Net properties
-       public string Name
+        public string Name
         {
             get { return EmpName; }
             set
@@ -141,6 +141,34 @@ namespace BuildingCSApp.Chapter6.Employees
             joe.Age++;
             Console.WriteLine("Employee age: {0}", joe.Age);
             Console.WriteLine();
+        }
+
+        public static void GivePromotion(Employee_Ihr emp)
+        {
+            Console.WriteLine("{0} was promoted", emp.EmpName);
+            if (emp is SalesPerson_Ihr)
+            {
+                Console.WriteLine("{0} made {1} sales(s)!", emp.EmpName, ((SalesPerson_Ihr)emp).SalesNumber);
+                Console.WriteLine();
+            }
+            if (emp is Manager_Ihr)
+            {
+                Console.WriteLine("{0} had {1} stock options!", emp.EmpName, ((Manager_Ihr)emp).StockOptions);
+                Console.WriteLine();
+            }
+        }
+
+        public static void TestPromotionMethod()
+        {
+            SalesPerson_Ihr tim = new SalesPerson_Ihr();
+            tim.EmpName = "Tim Xavier";
+            tim.SalesNumber = 100;
+            GivePromotion(tim);
+
+            Manager_Ihr magg = new Manager_Ihr();
+            magg.EmpName = "Maggie Tasha";
+            magg.StockOptions = 100;
+            GivePromotion(magg);
         }
     }
 }
