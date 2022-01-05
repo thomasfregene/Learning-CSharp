@@ -15,6 +15,9 @@ using System.Text;
 using System.Threading.Tasks;
 using BuildingCSApp.Chapter6.Shapes;
 using BuildingCSApp.Chapter6;
+using BuildingCSApp.Chapter7.SimpleException;
+using BuildingCSApp.Chapter7.CustomException;
+using BuildingCSApp.Chapter7.ProcessMultipleException;
 
 namespace BuildingCSApp
 {
@@ -67,8 +70,14 @@ namespace BuildingCSApp
             //Shape.Shape_Astract();
             //ThreeDCircle.ThreeDCircle_Status();
             //AsKeyword.UsingAsKeyword();
-            Employee_Ihr.TestPromotionMethod();
+            //Employee_Ihr.TestPromotionMethod();
+            //Person.SystemObjectMethod();
 
+            //Car_Ex.CarEx_SimpleException();
+            //Car_Ex.HandlingException();
+            //Car_SEx.HandlingExWithCustomException();
+
+            Car_MEx.HandlingMultipleException();
         }
     }
 }
