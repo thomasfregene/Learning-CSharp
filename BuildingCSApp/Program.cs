@@ -18,6 +18,7 @@ using BuildingCSApp.Chapter6;
 using BuildingCSApp.Chapter7.SimpleException;
 using BuildingCSApp.Chapter7.CustomException;
 using BuildingCSApp.Chapter7.ProcessMultipleException;
+using BuildingCSApp.Chapter8.ICloneableExample;
 
 namespace BuildingCSApp
 {
@@ -77,7 +78,9 @@ namespace BuildingCSApp
             //Car_Ex.HandlingException();
             //Car_SEx.HandlingExWithCustomException();
 
-            Car_MEx.HandlingMultipleException();
+            //Car_MEx.HandlingMultipleException();
+
+            CloneableIntefaceExample.ExampleMethod();
         }
     }
 }

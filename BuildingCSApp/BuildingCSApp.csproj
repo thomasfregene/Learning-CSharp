@@ -107,6 +107,13 @@
     <Compile Include="Chapter7\ProcessMultipleException\Radio_MEx.cs" />
     <Compile Include="Chapter7\SimpleException\Car_Ex.cs" />
     <Compile Include="Chapter7\SimpleException\Radio_Ex.cs" />
+    <Compile Include="Chapter8\CustomInterface\IPointy.cs" />
+    <Compile Include="Chapter8\CustomInterface\Shapes\Circle_Inf.cs" />
+    <Compile Include="Chapter8\CustomInterface\Shapes\Hexagon_Inf.cs" />
+    <Compile Include="Chapter8\CustomInterface\Shapes\Shape_Inf.cs" />
+    <Compile Include="Chapter8\CustomInterface\Shapes\ThreeDCircle_Inf.cs" />
+    <Compile Include="Chapter8\CustomInterface\Shapes\Triangle_Inf.cs" />
+    <Compile Include="Chapter8\ICloneableExample\CloneableIntefaceExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Chapter5\UnderstandingEncapsulation\CSharpClassType\CarObj.cs" />
